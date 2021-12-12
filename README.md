@@ -1,7 +1,7 @@
 # project-for-iot
 
 ### Discription
-An approch for IOT as a university project. _
+An approch for IOT as a university project. __
 Android app to view real time weather and a simple prediction
 
 ### Hardware
