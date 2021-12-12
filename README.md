@@ -19,15 +19,15 @@ Android app to view real time weather and a simple prediction
 
 ### Discription
 
-###### API
+##### API
 
 flask api build in python with built-in model for weather prediction (LogisticRegression).
 
-###### Telnet server
+##### Telnet server
 
 Telnet server to send data to raspberry when it connect to it.
 
-###### Android app 
+##### Android app 
 
 just a data viewer.
 
