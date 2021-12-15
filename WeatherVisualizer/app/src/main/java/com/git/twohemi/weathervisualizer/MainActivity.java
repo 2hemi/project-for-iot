@@ -57,13 +57,13 @@ public class MainActivity extends AppCompatActivity {
         StringRequest stringRequest = new StringRequest(Request.Method.GET, "http://192.168.43.35:5000/weather",
 
                 response -> {
-                    System.out.println("Fuuuuuuuuck 3 "+ response);
+                    System.out.println( response);
                     //parseItems(response);
                     jsonParser(response);
 
                 },
 
-                error -> System.out.println("Fuuuuuuuuck 2 "+ error))
+                error -> System.out.println( error))
                 ;
 
         RequestQueue queue = Volley.newRequestQueue(this);
